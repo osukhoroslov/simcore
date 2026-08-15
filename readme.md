@@ -3,7 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/simcore)](https://crates.io/crates/simcore)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE-APACHE)
 [![License](https://img.shields.io/badge/license-MIT-blue?)](LICENSE-MIT)
-[![Build Status](https://github.com/systems-group/simcore/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/systems-group/simcore/actions?query=workflow%3ACI+branch%3Amain)
+[![Build Status](https://github.com/osukhoroslov/simcore/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/osukhoroslov/simcore/actions?query=workflow%3ACI+branch%3Amain)
 [![Documentation](https://img.shields.io/docsrs/simcore)](https://docs.rs/simcore)
 
 SimCore is discrete-event simulation framework aimed to provide a solid foundation for building simulation models of
