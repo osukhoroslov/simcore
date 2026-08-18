@@ -413,13 +413,10 @@ impl SimulationState {
 
         pub fn next_timer(&mut self) -> Option<TimerPromise> {
             loop {
-                if let Some(timer) = self.timers.pop() {
-                    if !self.canceled_timers.remove(&timer.id) {
-                        self.clock = timer.time;
-                        return Some(timer);
-                    }
-                } else {
-                    return None;
+                let timer = self.timers.pop()?;
+                if !self.canceled_timers.remove(&timer.id) {
+                    self.clock = timer.time;
+                    return Some(timer);
                 }
             }
         }
